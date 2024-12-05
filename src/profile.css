@@ -1,0 +1,80 @@
+/* Profile.css */
+
+/* Styling for the overall container */
+div {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Heading styles */
+  h2, h3 {
+    color: #605ed7aa;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the checkboxes */
+  div input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the activity list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  li h4 {
+    margin: 0;
+    color: #555;
+  }
+  
+  li p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Table styles for the itinerary */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #635c5c;
+  }
+  
